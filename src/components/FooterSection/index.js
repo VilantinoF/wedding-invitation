@@ -31,17 +31,11 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2020 Dinda & Indra Wedding. All Rights Reserved.</small>
-                <small className="block">
-                  Covid-19 Icon by{' '}
-                  <a href="https://www.flaticon.com/packs/covid-protection-measures-5" target="_blank" rel="noreferrer">
-                    Flat Icon - Frepik
-                  </a>
-                </small>
+                <small className="block">&copy; 2023 Kriesye & Dwi Wedding. All Rights Reserved.</small>
                 <small className="block">
                   Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=fb167KAxvrg" target="_blank" rel="noreferrer">
-                    Anandito Anisa - Pernikahan Impian
+                  <a href="https://www.youtube.com/watch?v=GxldQ9eX2wo" target="_blank" rel="noreferrer">
+                  Stephen Sanchez - Until I Found You (Official Music Video)
                   </a>
                 </small>
                 <small className="block">
