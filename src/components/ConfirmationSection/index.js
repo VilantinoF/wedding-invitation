@@ -1,18 +1,15 @@
 import React from 'react';
-import { string, bool } from 'prop-types';
 import { Link } from 'gatsby';
 import { styWrapper, styFlex } from './styles';
 
-function ConfirmationSection({ isInvitation, guestName }) {
-  if (!isInvitation) return null;
-
+function ConfirmationSection() {
   return (
     <div id="fh5co-started" className="fh5co-bg" css={styWrapper}>
       <div className="overlay"></div>
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>
+            <h2 className="main-font">{` Apakah kamu hadir?`}</h2>
             <p>
               Atas kehadiran & do'a restu saudara/i, <br /> kami ucapkan teima kasih. Wassalamualaikum Warahmatullahi
               Wabarakatuh.
@@ -30,10 +27,5 @@ function ConfirmationSection({ isInvitation, guestName }) {
     </div>
   );
 }
-
-ConfirmationSection.propTypes = {
-  isInvitation: bool.isRequired,
-  guestName: string.isRequired,
-};
 
 export default React.memo(ConfirmationSection);

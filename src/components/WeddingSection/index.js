@@ -6,13 +6,6 @@ import { styWrapper } from './styles';
 
 function WeddingSection({ isInvitation }) {
   const renderGuestInfo = () => {
-    return (
-      <Fragment>
-        <div className="col-md-8 col-md-offset-4">
-          <WeddingInfoBox title="Akad Nikah" time="08.00 WIB" date="Jumat, 26 Mei 2023" />
-        </div>
-      </Fragment>
-    );
   };
 
   return (
@@ -28,29 +21,41 @@ function WeddingSection({ isInvitation }) {
             </div>
           </div>
           <div className="row">
-            {!isInvitation && renderGuestInfo()}
-            {isInvitation && (
+            {renderGuestInfo()}
+            {(
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
                   title="Akad Nikah"
-                  time="Akan dilaksanakan pagi hari "
+                  time="08.00 WIB"
                   date="Jumat, 26 Mei 2023"
-                  description="Rumah Mempelai Wanita, Semarang"
-                  mobileDescription="Rumah Mempelai Wanita, Semarang"
+                  description="Rumah Mempelai Wanita, Bengkulu"
+                  mobileDescription="Rumah Mempelai Wanita, Bengkulu"
                 />
                 <WeddingInfoBox
-                  title="Syukuran Pernikahan"
-                  time="Sesuai jadwal undangan di e-ticket "
-                  date="Jumat, 26 Mei 2023"
-                  description="Rumah Mempelai Wanita, Semarang"
-                  mobileDescription="Rumah Mempelai Wanita, Semarang"
+                  title="Pertandingan Domino"
+                  time="20.00 WIB"
+                  date="Sabtu, 27 Mei 2023"
+                  description="Rumah Mempelai Wanita, Bengkulu"
+                  mobileDescription="Rumah Mempelai Wanita, Bengkulu"
+                />
+                <WeddingInfoBox
+                  title="Resepsi"
+                  time="07.30 WIB"
+                  date="Minggu, 28 Mei 2023"
+                  description="Rumah Mempelai Wanita, Bengkulu"
+                  mobileDescription="Rumah Mempelai Wanita, Bengkulu"
                 />
               </div>
             )}
           </div>
         </div>
       </div>
+
     </Fragment>
+
+
+
+
   );
 }
 

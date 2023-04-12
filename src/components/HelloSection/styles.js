@@ -11,6 +11,7 @@ export const styWrapper = css`
   p {
     font-size: 16px;
     margin-top: 16px;
+    color: #211721;
   }
 
   @media screen and (max-width: 500px) {

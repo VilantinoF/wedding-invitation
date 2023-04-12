@@ -37,8 +37,9 @@ function PhotoSection() {
             <div className="col-md-10 col-md-offset-1">{renderYoutubeVideo()}</div>
           </div>
           <div className="row">
+          <br />
             <div className="col-md-10 col-md-offset-1">
-              <ImageGallery items={photos} showBullets={false} />;
+              <ImageGallery items={photos} showBullets={false} autoPlay={true} />;
             </div>
           </div>
         </div>
