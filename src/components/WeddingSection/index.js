@@ -32,8 +32,8 @@ function WeddingSection({ isInvitation }) {
                   mobileDescription="Rumah Mempelai Wanita, Bengkulu"
                 />
                 <WeddingInfoBox
-                  title="Pertandingan Domino"
-                  time="20.00 WIB"
+                  title="Merempah"
+                  time="07.30 WIB"
                   date="Sabtu, 27 Mei 2023"
                   description="Rumah Mempelai Wanita, Bengkulu"
                   mobileDescription="Rumah Mempelai Wanita, Bengkulu"

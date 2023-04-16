@@ -1,8 +1,15 @@
 import { css } from '@emotion/core';
+import Background from '@assets/images/bg-3.png';
 
 export const styWrapper = css`
+  background-image: url(${Background});
+  background-position: 58% 5%;
+
+  .main-font {
+    color: #F3EFE0;
+  }
   .sub-title {
-    color: #828282;
+    color: #F3EFE0;
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 20px;
@@ -11,7 +18,11 @@ export const styWrapper = css`
   p {
     font-size: 16px;
     margin-top: 16px;
-    color: #211721;
+    color: #F3EFE0;
+  }
+
+  i {
+    color: #F3EFE0;
   }
 
   @media screen and (max-width: 500px) {

@@ -28,17 +28,10 @@ function LocationSection() {
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
-              <iframe
-                src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=-4.470278,%20102.921306+(Rumah%20Mempelai%20Wanita)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                width="100%"
-                height="450"
-                frameBorder="0"
-                style={{ border: '0' }}
-                allowFullScreen
-                aria-hidden="false"
-                tabIndex="0"
-                title="Google Maps - Kriesye & Dwi Wedding"
-              ></iframe>
+              <button type="button"><a href="https://goo.gl/maps/uj8mZZYbhdt5ACRE8">View Map</a></button>
+              <br/>
+              <br/>
+              <br/>
             </div>
           </div>
         </div>
