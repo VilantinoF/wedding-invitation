@@ -1260,6 +1260,14 @@ form label {
   width: 100px;
   height: 100px;
 }
+#fh5co-testimonial {
+  background-color: #252525;
+}
+
+#fh5co-testimonial .main-font,#fh5co-testimonial p, #fh5co-couple-story .main-font, #fh5co-couple-story p {
+  color: #fff;
+}
+
 #fh5co-testimonial .wrap-testimony .testimony-slide figure img {
   width: 100px;
   height: 100px;
