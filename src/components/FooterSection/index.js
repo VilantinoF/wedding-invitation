@@ -24,11 +24,15 @@ function FooterSection({ isInvitation }) {
                   Wassalamualaikum warahmatullahi wabarakatuh.
                 </p>
               </div>
+              <br /><br />
               <div css={bankStyle}>
                 <BankInfoBox
-                  title="BCA"
-                  time="8545605151"
-                  date="Dwi Anditya Kurniawan"
+                  title="Kriesye Refertiwi"
+                  time="BRI - 060901019525500"
+                />
+                <BankInfoBox
+                  title="Dwi Anditya Kurniawan"
+                  time="BCA - 8545605151"
                 />
               </div>
             </div>
