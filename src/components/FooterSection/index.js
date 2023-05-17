@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 import { styWrapper } from '../HelloSection/styles';
+import { bankStyle } from './style';
+import BankInfoBox from './BankInfoBox';
 
 function FooterSection({ isInvitation }) {
   return (
@@ -21,6 +23,13 @@ function FooterSection({ isInvitation }) {
                   <br /> kami ucapkan terima kasih. <br />
                   Wassalamualaikum warahmatullahi wabarakatuh.
                 </p>
+              </div>
+              <div css={bankStyle}>
+                <BankInfoBox
+                  title="BCA"
+                  time="8545605151"
+                  date="Dwi Anditya Kurniawan"
+                />
               </div>
             </div>
           </div>
