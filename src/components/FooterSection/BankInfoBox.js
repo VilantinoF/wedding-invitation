@@ -6,7 +6,7 @@ function BankInfoBox({ title, date, time, description }) {
     <div className="col-md-6 col-sm-6 text-left">
       <div className="event-wrap">
       <i className="bca"></i>
-      <h3>{title}</h3>
+      <h4>{title}</h4>
         <div className="event-col">
           <span>{time}</span>
         </div>
